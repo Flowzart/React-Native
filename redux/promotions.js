@@ -15,5 +15,5 @@ export const promotions = (state = { isLoading: true,
 
         default:
             return state;
-      }
+    }
 };

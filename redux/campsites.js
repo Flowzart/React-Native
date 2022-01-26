@@ -1,8 +1,8 @@
 import * as ActionTypes from './ActionTypes';
 
 export const campsites = (state = { isLoading: true,
-                                     errMess: null,
-                                     campsites: []}, action) => {
+                                    errMess: null,
+                                    campsites: []}, action) => {
     switch (action.type) {
         case ActionTypes.ADD_CAMPSITES:
             return {...state, isLoading: false, errMess: null, campsites: action.payload};
@@ -15,5 +15,5 @@ export const campsites = (state = { isLoading: true,
 
         default:
             return state;
-      }
+    }
 };

@@ -7,7 +7,7 @@ import { promotions } from './promotions';
 import { partners } from './partners';
 import { favorites } from './favorites';
 import { persistStore, persistCombineReducers } from 'redux-persist';
-import  storage  from 'redux-persist';
+import storage from 'redux-persist/es/storage';
 
 const config = {
     key: 'root',
